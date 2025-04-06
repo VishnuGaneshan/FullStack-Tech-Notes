@@ -22,7 +22,7 @@ The repository is organized by topics — each with focused notes, real-world ex
 
 | # | Topic                     | Description |
 |---|---------------------------|-------------|
-| 01 | JavaScript                | Core language, ES6+, concepts, quirks |
+| 01 | [JavaScript](./javascript) | Core language, ES6+, concepts, quirks |
 | 02 | TypeScript               | Types, interfaces, narrowing, utilities |
 | 03 | React.js                 | Components, hooks, patterns, testing |
 | 04 | Next.js                  | SSR, routing, API routes, performance |
