@@ -22,21 +22,21 @@ The repository is organized by topics — each with focused notes, real-world ex
 
 | # | Topic                     | Description |
 |---|---------------------------|-------------|
-| 01 | [JavaScript](./Javascript)               | Core language, ES6+, concepts, quirks |
-| 02 | [TypeScript](./TypeScript)               | Types, interfaces, narrowing, utilities |
-| 03 | [React.js](./React.js)                  | Components, hooks, patterns, testing |
-| 04 | [Next.js](./Next.js)               | SSR, routing, API routes, performance |
-| 05 | [Node.js](./Node.js)                  | Event loop, streams, fs, modules |
-| 06 | [Express.js](./Express.js)               | Routing, middleware, auth, APIs |
-| 07 | [SQL](./Sql) & [MySQL](./MySQL)              | Queries, joins, indexing, normalization |
-| 08 | [MongoDB](./MongoDB)                  | Documents, aggregation, schema design |
-| 09 | [DSA](./DSA)                      | Patterns, LeetCode solutions, explanations |
-| 10 | [Computer Fundamentals](./ComputerFundamentals)    | OS, networking, memory, processes |
-| 11 | [System Design](./SystemDesign)            | LLD, HLD, scalability, CAP, caching |
-| 12 | [DevOps & Deployment](./DevOps)      | Docker, CI/CD, hosting, environments |
-| 13 | [Security Essentials](./SecurityEssentials)      | HTTPS, JWT, OAuth, SQL injection |
-| 14 | [AI for Web Developers](./AIforWebDevelopers)    | Prompts, APIs, practical AI uses |
-| 15 | [New Tech Trend](./NewTechTrends)          | Tools, frameworks, practices worth learning |
+| 01 | [JavaScript](./Javascript/README.md)               | Core language, ES6+, concepts, quirks |
+| 02 | [TypeScript](./TypeScript/README.md)               | Types, interfaces, narrowing, utilities |
+| 03 | [React.js](./React.js/README.md)                  | Components, hooks, patterns, testing |
+| 04 | [Next.js](./Next.js/README.md)               | SSR, routing, API routes, performance |
+| 05 | [Node.js](./Node.js/README.md)                  | Event loop, streams, fs, modules |
+| 06 | [Express.js](./Express.js/README.md)               | Routing, middleware, auth, APIs |
+| 07 | [SQL](./Sql/README.md) & [MySQL](./MySQL/README.md)              | Queries, joins, indexing, normalization |
+| 08 | [MongoDB](./MongoDB/README.md)                  | Documents, aggregation, schema design |
+| 09 | [DSA](./DSA/README.md)                      | Patterns, LeetCode solutions, explanations |
+| 10 | [Computer Fundamentals](./ComputerFundamentals/README.md)    | OS, networking, memory, processes |
+| 11 | [System Design](./SystemDesign/README.md)            | LLD, HLD, scalability, CAP, caching |
+| 12 | [DevOps & Deployment](./DevOps/README.md)      | Docker, CI/CD, hosting, environments |
+| 13 | [Security Essentials](./SecurityEssentials/README.md)      | HTTPS, JWT, OAuth, SQL injection |
+| 14 | [AI for Web Developers](./AIforWebDevelopers/README.md)    | Prompts, APIs, practical AI uses |
+| 15 | [New Tech Trend](./NewTechTrends/README.md)          | Tools, frameworks, practices worth learning |
 
 ---
 
