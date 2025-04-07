@@ -22,21 +22,21 @@ The repository is organized by topics — each with focused notes, real-world ex
 
 | # | Topic                     | Description |
 |---|---------------------------|-------------|
-| 01 | [JavaScript](./javascript)               | Core language, ES6+, concepts, quirks |
+| 01 | [JavaScript](./Javascript)               | Core language, ES6+, concepts, quirks |
 | 02 | [TypeScript](./TypeScript)               | Types, interfaces, narrowing, utilities |
-| 03 | React.js                 | Components, hooks, patterns, testing |
-| 04 | Next.js                  | SSR, routing, API routes, performance |
-| 05 | Node.js                  | Event loop, streams, fs, modules |
-| 06 | Express.js               | Routing, middleware, auth, APIs |
-| 07 | MySQL & SQL              | Queries, joins, indexing, normalization |
-| 08 | MongoDB                  | Documents, aggregation, schema design |
-| 09 | DSA                      | Patterns, LeetCode solutions, explanations |
-| 10 | Computer Fundamentals    | OS, networking, memory, processes |
-| 11 | System Design            | LLD, HLD, scalability, CAP, caching |
-| 12 | DevOps & Deployment      | Docker, CI/CD, hosting, environments |
-| 13 | Security Essentials      | HTTPS, JWT, OAuth, SQL injection |
-| 14 | AI for Web Developers    | Prompts, APIs, practical AI uses |
-| 15 | New Tech Trends          | Tools, frameworks, practices worth learning |
+| 03 | [React.js](./React.js)                  | Components, hooks, patterns, testing |
+| 04 | [Next.js](./Next.js)               | SSR, routing, API routes, performance |
+| 05 | [Node.js](./Node.js)                  | Event loop, streams, fs, modules |
+| 06 | [Express.js](./Express.js)               | Routing, middleware, auth, APIs |
+| 07 | [SQL](./Sql) & [MySQL](./MySQL)              | Queries, joins, indexing, normalization |
+| 08 | [MongoDB](./MongoDB)                  | Documents, aggregation, schema design |
+| 09 | [DSA](./DSA)                      | Patterns, LeetCode solutions, explanations |
+| 10 | [Computer Fundamentals](./ComputerFundamentals)    | OS, networking, memory, processes |
+| 11 | [System Design](./SystemDesign)            | LLD, HLD, scalability, CAP, caching |
+| 12 | [DevOps & Deployment](./DevOps)      | Docker, CI/CD, hosting, environments |
+| 13 | [Security Essentials](./SecurityEssentials)      | HTTPS, JWT, OAuth, SQL injection |
+| 14 | [AI for Web Developers](./AIforWebDevelopers)    | Prompts, APIs, practical AI uses |
+| 15 | [New Tech Trend](./NewTechTrends)          | Tools, frameworks, practices worth learning |
 
 ---
 
