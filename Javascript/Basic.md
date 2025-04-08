@@ -2,7 +2,7 @@
 
 These are fundamentals every JavaScript developer must know:
 
-- [What is JavaScript?](#what-is-javascript)
+- [What is JavaScript?](#-what-is-javascript-️)
 - [JS Engine & How it runs in the browser](#️-javascript-engine--how-it-runs-in-the-browser-️)
 - Code Editors & Setup
 - Variables (`var`, `let`, `const`)
@@ -33,7 +33,7 @@ These are fundamentals every JavaScript developer must know:
 
 ---
 
-### What is JavaScript?
+### 🔰 What is JavaScript? 🌐⚙️📜
 
 JavaScript is a **high-level**, **interpreted**, **lightweight**, and **multi-paradigm** programming language that is one of the **core technologies of the web**, alongside HTML and CSS.  
 
