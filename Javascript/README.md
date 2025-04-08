@@ -6,7 +6,7 @@ This guide will take you from the very basics to advanced concepts.
 
 ---
 
-## ✅ **Basic Topics**
+## ✅ [**Basic Topics**](./Basic.md#-basic-topics)
 
 These are fundamentals every JavaScript developer must know:
 
