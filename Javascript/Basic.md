@@ -2,8 +2,8 @@
 
 These are fundamentals every JavaScript developer must know:
 
-- [What is JavaScript?](#What-is-JavaScript?)
-- [JS Engine & How it runs in the browser](#JavaScript-Engine-&-How-It-Runs-in-the-Browser)
+- [What is JavaScript?](#what-is-javascript)
+- [JS Engine & How it runs in the browser](#javascript-engine--how-it-runs-in-the-browser)
 - Code Editors & Setup
 - Variables (`var`, `let`, `const`)
 - Data Types (Primitive & Non-Primitive)
@@ -33,7 +33,7 @@ These are fundamentals every JavaScript developer must know:
 
 ---
 
-### <span id="What-is-JavaScript?"> 🔰 What is JavaScript? 🌐⚙️📜</span> 
+### What is JavaScript?
 
 JavaScript is a **high-level**, **interpreted**, **lightweight**, and **multi-paradigm** programming language that is one of the **core technologies of the web**, alongside HTML and CSS.  
 
@@ -75,7 +75,7 @@ console.log(greet("Vishnu")); // Output: Hello, Vishnu!
 
 ---
 
-### <span id="JavaScript-Engine-&-How-It-Runs-in-the-Browser">⚙️ JavaScript Engine & How It Runs in the Browser 🚀🧠🖥️</span>
+### JavaScript Engine & How It Runs in the Browser
 
 JavaScript doesn’t work on its own — it needs a **JavaScript engine** to interpret and execute the code. Every modern browser comes with its own JS engine that runs your code behind the scenes.
 
