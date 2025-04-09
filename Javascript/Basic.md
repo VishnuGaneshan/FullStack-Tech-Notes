@@ -73,6 +73,9 @@ function greet(name) {
 console.log(greet("Vishnu")); // Output: Hello, Vishnu!
 ```
 
+[<p align="right">Back to Top</p>](#)
+
+
 ---
 
 > ### **JavaScript Engine & How It Runs in the Browser**
@@ -149,3 +152,5 @@ Execution in Browser (Call Stack + Web APIs + Event Loop)
 - The **event loop** enables JavaScript to be asynchronous even though it's single-threaded.
 
 ---
+
+> ###
