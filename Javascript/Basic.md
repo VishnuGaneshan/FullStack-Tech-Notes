@@ -73,8 +73,7 @@ function greet(name) {
 console.log(greet("Vishnu")); // Output: Hello, Vishnu!
 ```
 
-[<p align="right">Back to Top</p>](#)
-
+[Back to Top](#)
 
 ---
 
