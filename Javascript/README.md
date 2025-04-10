@@ -10,34 +10,36 @@ This guide will take you from the very basics to advanced concepts.
 
 These are fundamentals every JavaScript developer must know:
 
-- What is JavaScript?
-- JS Engine & How it runs in the browser
-- Code Editors & Setup
-- Variables (`var`, `let`, `const`)
-- Data Types (Primitive & Non-Primitive)
-- Operators
+- [What is JavaScript?](./Basic.md#what-is-javascript)
+- [JS Engine & How it runs in the browser](./Basic.md#javascript-engine--how-it-runs-in-the-browser)
+- [Code Editors & Setup](./Basic.md#code-editors--setup)
+- [Variables](./Basic.md#variables) (`var`, `let`, `const`)
+- [Data Types](./Basic.md#data-types) (Primitive & Non-Primitive)
+- [Operators](./Basic.md#operators)
   - Arithmetic
   - Comparison
   - Logical
   - Assignment
   - Bitwise
   - Ternary
-- Type Conversion & Coercion
-- Conditionals (`if`, `else`, `switch`)
-- Loops
+- [Type Conversion & Coercion](./Basic.md#type-conversion--coercion)
+- [Conditionals](./Basic.md#conditionals) (`if`, `else`, `switch`)
+- [Loops](./Basic.md#loops)
   - `for`, `while`, `do...while`
   - `for...in`, `for...of`
-- Functions
+- [Functions](./Basic.md#functions)
   - Declaration & Expressions
   - Parameters vs Arguments
   - Return Values
-- Arrays
+- [Arrays](./Basic.md#arrays)
   - Declaration, Access, and Iteration
   - Basic Methods (`push`, `pop`, `shift`, `unshift`, `indexOf`)
-- Objects
+  - Array Methods (`map`, `filter`, `reduce`, etc.)
+- [Objects](./Basic.md#objects)
   - Key-Value Pairs
   - Dot & Bracket Notation
-- Basic Debugging using `console.log`
+  - Advanced Object Techniques
+- [Debugging using](./Basic.md#debugging-using-console) `console`
 
 ---
 
