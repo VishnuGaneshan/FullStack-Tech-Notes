@@ -6,7 +6,7 @@ This guide will take you from the very basics to advanced concepts.
 
 ---
 
-## ✅ [**Basic Topics**](./Basic.md#-basic-topics)
+## ✅ [**Basic Topics**](./Basic.md#)
 
 These are fundamentals every JavaScript developer must know:
 
@@ -43,79 +43,79 @@ These are fundamentals every JavaScript developer must know:
 
 ---
 
-## 🚀 [**Intermediate Topics**](./Intermediate.md)
+## 🚀 [**Intermediate Topics**](./Intermediate.md#)
 
 These are essential to writing powerful, clean, and modular code:
 
-- **Function Scope vs Block Scope**
-- **Hoisting**
-- **Closures**
-- **The `this` Keyword**
-- **Arrow Functions**
-- **Rest and Spread Operators**
-- **Destructuring Arrays and Objects**
-- **Template Literals**
-- **Object Methods & `this` in Objects**
-- **Callbacks**
-- **Array Methods**
+- [**Function Scope vs Block Scope**](./Intermediate.md#function-scope-vs-block-scope)
+- [**Hoisting**](./Intermediate.md#hoisting)
+- [**Closures**](./Intermediate.md#closures)
+- [**The `this` Keyword**](./Intermediate.md#the-this-keyword)
+- [**Arrow Functions**](./Intermediate.md#arrow-functions)
+- [**Rest and Spread Operators**](./Intermediate.md#rest-and-spread-operators)
+- [**Destructuring Arrays and Objects**](./Intermediate.md#destructuring-arrays-and-objects)
+- [**Template Literals**](./Intermediate.md#template-literals)
+- [**Object Methods & `this` in Objects**](./Intermediate.md#object-methods--this-in-objects)
+- [**Callbacks**](./Intermediate.md#callbacks)
+- [**Array Methods**](./Intermediate.md#array-methods)
   - `map`, `filter`, `reduce`, `find`, `some`, `every`, `sort`, `flat`, etc.
-- **Object Manipulation**
+- [**Object Manipulation**](./Intermediate.md#object-manipulation)
   - Cloning, Merging, Freezing
-- **ES6 Modules**
+- [**ES6 Modules**](./Intermediate.md#es6-modules)
   - `import` / `export`
-- **Strict Mode**
-- **Optional Chaining (`?.`)**
-- **Nullish Coalescing (`??`)**
-- **Default Parameters**
-- **Set, Map, WeakSet, WeakMap**
-- **Basic DOM Manipulation**
-- **Event Handling**
+- [**Strict Mode**](./Intermediate.md#strict-mode)
+- [**Optional Chaining (`?.`)**](./Intermediate.md#optional-chaining-)
+- [**Nullish Coalescing (`??`)**](./Intermediate.md#nullish-coalescing-)
+- [**Default Parameters**](./Intermediate.md#default-parameters)
+- [**Set, Map, WeakSet, WeakMap**](./Intermediate.md#set-map-weakset-weakmap)
+- [**Basic DOM Manipulation**](./Intermediate.md#basic-dom-manipulation)
+- [**Event Handling**](./Intermediate.md#event-handling)
   - `addEventListener`, event types, bubbling, capturing, delegation
 
 ---
 
-## 🧠 [**Advanced Topics**](./Advanced.md)
+## 🧠 [**Advanced Topics**](./Advanced.md#)
 
 These give deeper understanding of how JavaScript works and are often asked in interviews:
 
-- **Asynchronous JavaScript**
+- [**Asynchronous JavaScript**](./Advanced.md#asynchronous-javascript)
   - Callbacks
   - Promises
   - `async/await`
-- **JavaScript Event Loop**
+- [**JavaScript Event Loop**](./Advanced.md#javascript-event-loop)
   - Call Stack
   - Callback Queue
   - Microtask Queue
   - Task Prioritization
-- **Memory Management**
+- [**Memory Management**](./Advanced.md#memory-management)
   - Garbage Collection
   - Memory Leaks
-- **Prototypal Inheritance**
+- [**Prototypal Inheritance**](./Advanced.md#prototypal-inheritance)
   - `Object.create()`
   - `__proto__`, `prototype`
   - Class Syntax (`class`, `extends`, `super`)
-- **The `new` Keyword**
-- **`bind`, `call`, `apply`**
-- **Custom Error Handling**
+- [**The `new` Keyword**](./Advanced.md#the-new-keyword)
+- [**`bind`, `call`, `apply`**](./Advanced.md#bind-call-apply)
+- [**Custom Error Handling**](./Advanced.md#custom-error-handling)
   - `try`, `catch`, `finally`, `throw`
-- **IIFE (Immediately Invoked Function Expression)**
-- **Module Bundlers & Tools**
+- [**IIFE (Immediately Invoked Function Expression)**](./Advanced.md#iife-immediately-invoked-function-expression)
+- [**Module Bundlers & Tools**](./Advanced.md#module-bundlers--tools)
   - Webpack, Babel (Basics)
-- **Event-driven Architecture**
-- **Custom Events**
-- **Throttling & Debouncing**
-- **Service Workers & Web APIs**
-- **Security Concepts**
+- [**Event-driven Architecture**](./Advanced.md#event-driven-architecture)
+- [**Custom Events**](./Advanced.md#custom-events)
+- [**Throttling & Debouncing**](./Advanced.md#throttling--debouncing)
+- [**Service Workers & Web APIs**](./Advanced.md#service-workers--web-apis)
+- [**Security Concepts**](./Advanced.md#security-concepts)
   - XSS, CSRF (Basics)
-- **JavaScript Patterns**
+- [**JavaScript Patterns**](./Advanced.md#javascript-patterns)
   - Module, Revealing Module, Singleton, Observer, Factory
-- **Functional Programming in JS**
+- [**Functional Programming in JS**](./Advanced.md#functional-programming-in-js)
   - Pure Functions, Immutability, Higher-Order Functions
-- **Currying & Partial Application**
-- **Generators and Iterators**
-- **Symbols & Iterables**
-- **Proxy and Reflect API**
-- **Typed Arrays & Buffers**
+- [**Currying & Partial Application**](./Advanced.md#currying--partial-application)
+- [**Generators and Iterators**](./Advanced.md#generators-and-iterators)
+- [**Symbols & Iterables**](./Advanced.md#symbols--iterables)
+- [**Proxy and Reflect API**](./Advanced.md#proxy-and-reflect-api)
+- [**Typed Arrays & Buffers**](./Advanced.md#typed-arrays--buffers)
 
 ---
 
