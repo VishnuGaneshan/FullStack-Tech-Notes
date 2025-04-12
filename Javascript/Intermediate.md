@@ -14,19 +14,19 @@ These are essential to writing powerful, clean, and modular code:
 - [**Template Literals**](#template-literals)
 - [**Object Methods & `this` in Objects**](#object-methods--this-in-objects)
 - [**Callbacks**](#callbacks)
-- **Array Methods**
-  - `map`, `filter`, `re duce`, `find`, `some`, `every`, `sort`, `flat`, etc.
-- **Object Manipulation**
+- [**Array Methods**](#array-methods)
+  - `map`, `filter`, `reduce`, `find`, `some`, `every`, `sort`, `flat`, etc.
+- [**Object Manipulation**](#object-manipulation)
   - Cloning, Merging, Freezing
-- **ES6 Modules**
+- [**ES6 Modules**](#es6-modules)
   - `import` / `export`
-- **Strict Mode**
-- **Optional Chaining (`?.`)**
-- **Nullish Coalescing (`??`)**
-- **Default Parameters**
-- **Set, Map, WeakSet, WeakMap**
-- **Basic DOM Manipulation**
-- **Event Handling**
+- [**Strict Mode**](#strict-mode)
+- [**Optional Chaining (`?.`)**](#optional-chaining-)
+- [**Nullish Coalescing (`??`)**](#nullish-coalescing-)
+- [**Default Parameters**](#default-parameters)
+- [**Set, Map, WeakSet, WeakMap**](#set-map-weakset-weakmap)
+- [**Basic DOM Manipulation**](#basic-dom-manipulation)
+- [**Event Handling**](#event-handling)
   - `addEventListener`, event types, bubbling, capturing, delegation
 
 ---
@@ -908,81 +908,447 @@ fs.readFile("file.txt", (err, data) => {
 
 ---
 
-### ****
+### **Array Methods**
 
+JavaScript provides a variety of powerful methods to work with arrays. These methods make it easier to manipulate, transform, and analyze data. Let’s explore some of the most commonly used ones. 🛠️📊
 
+#### 🔹 `map()`
+
+The `map()` method creates a **new array** by applying a function to each element of the original array.
+
+```js
+const numbers = [1, 2, 3];
+const squared = numbers.map(num => num * num);
+console.log(squared); // [1, 4, 9]
+```
+
+- **Use Case**: Transforming data (e.g., converting an array of objects to an array of specific properties).
+
+#### 🔹 `filter()`
+
+The `filter()` method creates a **new array** with elements that pass a given condition.
+
+```js
+const numbers = [1, 2, 3, 4];
+const even = numbers.filter(num => num % 2 === 0);
+console.log(even); // [2, 4]
+```
+
+- **Use Case**: Filtering data based on conditions (e.g., finding active users).
+
+#### 🔹 `reduce()`
+
+The `reduce()` method applies a function to an accumulator and each element in the array to reduce it to a single value.
+
+```js
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 10
+```
+
+- **Use Case**: Summing values, flattening arrays, or aggregating data.
+
+#### 🔹 `find()`
+
+The `find()` method returns the **first element** in the array that satisfies a given condition.
+
+```js
+const users = [{ id: 1 }, { id: 2 }, { id: 3 }];
+const user = users.find(u => u.id === 2);
+console.log(user); // { id: 2 }
+```
+
+- **Use Case**: Finding a specific item in an array.
+
+#### 🔹 `some()` and `every()`
+
+- `some()`: Checks if **at least one** element satisfies a condition.
+- `every()`: Checks if **all** elements satisfy a condition.
+
+```js
+const numbers = [1, 2, 3];
+console.log(numbers.some(num => num > 2)); // true
+console.log(numbers.every(num => num > 0)); // true
+```
+
+- **Use Case**: Validating data or checking conditions.
+
+#### 🔹 `sort()`
+
+The `sort()` method sorts the elements of an array **in place**. By default, it sorts as strings.
+
+```js
+const numbers = [3, 1, 4, 2];
+numbers.sort((a, b) => a - b); // Ascending order
+console.log(numbers); // [1, 2, 3, 4]
+```
+
+- **Use Case**: Sorting numbers, strings, or objects.
+
+#### 🔹 `flat()`
+
+The `flat()` method creates a new array by **flattening nested arrays**.
+
+```js
+const nested = [1, [2, [3, 4]]];
+console.log(nested.flat(2)); // [1, 2, 3, 4]
+```
+
+- **Use Case**: Simplifying deeply nested arrays.
+
+#### 🧠 Summary
+
+| Method/Structure   | Purpose                          | Returns       |
+|--------------------|----------------------------------|---------------|
+| `map()`            | Transform elements              | New array     |
+| `filter()`         | Filter elements                 | New array     |
+| `reduce()`         | Aggregate values                | Single value  |
+| `find()`           | Find first matching element     | Single element|
+| `some()`           | Check if any element matches    | Boolean       |
+| `every()`          | Check if all elements match     | Boolean       |
+| `sort()`           | Sort elements                   | Original array|
+| `flat()`           | Flatten nested arrays           | New array     |
 
 [Back to Top](#)
 
 ---
 
-### ****
+### **Object Manipulation**
 
+JavaScript provides several ways to manipulate objects, such as cloning, merging, and freezing. Let’s explore these techniques. 🛠️📦
 
+#### 🔹 Cloning Objects
+
+You can create a **shallow copy** of an object using the spread operator or `Object.assign()`.
+
+```js
+const obj = { a: 1, b: 2 };
+const clone = { ...obj };
+console.log(clone); // { a: 1, b: 2 }
+```
+
+- **Use Case**: Duplicating objects without modifying the original.
+
+#### 🔹 Merging Objects
+
+You can merge multiple objects into one using the spread operator or `Object.assign()`.
+
+```js
+const obj1 = { a: 1 };
+const obj2 = { b: 2 };
+const merged = { ...obj1, ...obj2 };
+console.log(merged); // { a: 1, b: 2 }
+```
+
+- **Use Case**: Combining configurations or state objects.
+
+#### 🔹 Freezing Objects
+
+The `Object.freeze()` method makes an object **immutable** (cannot be modified).
+
+```js
+const obj = { a: 1 };
+Object.freeze(obj);
+obj.a = 2; // ❌ Error in strict mode
+console.log(obj.a); // 1
+```
+
+- **Use Case**: Preventing accidental modifications to critical data.
+
+#### 🔹 Sealing Objects
+
+The `Object.seal()` method prevents adding or removing properties but allows modifying existing ones.
+
+```js
+const obj = { a: 1 };
+Object.seal(obj);
+obj.a = 2; // ✅ Allowed
+obj.b = 3; // ❌ Not allowed
+console.log(obj); // { a: 2 }
+```
+
+#### 🧠 Summary
+
+| Method            | Purpose                          | Modifications Allowed |
+|-------------------|----------------------------------|-----------------------|
+| Spread/Assign     | Clone or merge objects          | ✅ Yes                |
+| `Object.freeze()` | Make object immutable           | ❌ No                 |
+| `Object.seal()`   | Prevent adding/removing props   | ✅ Modify existing    |
 
 [Back to Top](#)
 
 ---
 
-### ****
+### **ES6 Modules**
 
+Modules in JavaScript allow you to split your code into reusable pieces. ES6 introduced a native module system with `import` and `export`. 📦📜
 
+#### 🔹 Exporting
 
-[Back to Top](#)
+You can export variables, functions, or classes from a module.
 
----
+```js
+// filepath: math.js
+export const add = (a, b) => a + b;
+export const subtract = (a, b) => a - b;
+```
 
-### ****
+#### 🔹 Importing
 
+You can import specific exports or all exports from a module.
 
+```js
+// filepath: main.js
+import { add, subtract } from './math.js';
+console.log(add(2, 3)); // 5
+```
 
-[Back to Top](#)
+#### 🔹 Default Exports
 
----
+A module can have a **default export**, which can be imported with any name.
 
-### ****
+```js
+// filepath: greet.js
+export default function greet(name) {
+  return `Hello, ${name}!`;
+}
 
+// filepath: main.js
+import greet from './greet.js';
+console.log(greet('Vishnu')); // Hello, Vishnu!
+```
 
+#### 🧠 Summary
 
-[Back to Top](#)
-
----
-
-### ****
-
-
-
-[Back to Top](#)
-
----
-
-### ****
-
-
-
-[Back to Top](#)
-
----
-
-### ****
-
-
-
-[Back to Top](#)
-
----
-
-### ****
-
-
+| Feature            | Syntax                          | Use Case             |
+|--------------------|---------------------------------|----------------------|
+| Named Export       | `export const x = ...`         | Export multiple items|
+| Default Export     | `export default ...`           | Export one main item |
+| Import Specific    | `import { x } from ...`        | Use specific exports |
+| Import All         | `import * as obj from ...`     | Use all exports      |
 
 [Back to Top](#)
 
 ---
 
-### ****
+### **Strict Mode**
 
+`"use strict";` is a directive that enables **strict mode** in JavaScript, which enforces stricter parsing and error handling. 🛡️⚙️
 
+#### 🔹 Enabling Strict Mode
+
+You can enable strict mode for an entire script or a specific function.
+
+```js
+"use strict";
+x = 10; // ❌ ReferenceError: x is not defined
+```
+
+#### 🔹 Benefits of Strict Mode
+
+1. Prevents the use of undeclared variables.
+2. Throws errors for unsafe actions (e.g., deleting variables).
+3. Disables `this` binding to the global object in functions.
+
+#### 🧠 Summary
+
+Strict mode helps catch common bugs and enforces better coding practices. Always use it in modern JavaScript. ✅
+
+[Back to Top](#)
+
+---
+
+### **Optional Chaining (`?.`)**
+
+The optional chaining operator (`?.`) allows you to safely access deeply nested properties without worrying about `undefined` or `null`. 🛡️🔗
+
+```js
+const user = { address: { city: "New York" } };
+console.log(user.address?.city); // New York
+console.log(user.address?.zip); // undefined
+```
+
+- **Use Case**: Avoiding errors when accessing nested properties.
+
+[Back to Top](#)
+
+---
+
+### **Nullish Coalescing (`??`)**
+
+The nullish coalescing operator (`??`) returns the right-hand value if the left-hand value is `null` or `undefined`.
+
+```js
+const name = null;
+console.log(name ?? "Guest"); // Guest
+```
+
+- **Use Case**: Providing default values for `null` or `undefined`.
+
+[Back to Top](#)
+
+---
+
+### **Default Parameters**
+
+Default parameters allow you to set default values for function arguments.
+
+```js
+function greet(name = "Guest") {
+  console.log(`Hello, ${name}!`);
+}
+greet(); // Hello, Guest!
+```
+
+- **Use Case**: Simplifying function calls with optional arguments.
+
+[Back to Top](#)
+
+---
+
+### **Set, Map, WeakSet, WeakMap**
+
+JavaScript provides new data structures like `Set`, `Map`, `WeakSet`, and `WeakMap` for better data handling. Let’s explore them. 🛠️📦
+
+#### 🔹 Set
+
+A `Set` stores **unique values** of any type, whether primitive or object references.
+
+```js
+const set = new Set([1, 2, 2, 3]);
+console.log(set); // Set { 1, 2, 3 }
+```
+
+- **Use Case**: Removing duplicates from an array or ensuring unique values.
+
+#### 🔹 Map
+
+A `Map` stores **key-value pairs**, where keys can be of any type (not just strings).
+
+```js
+const map = new Map();
+map.set("name", "Vishnu");
+map.set(1, "One");
+console.log(map.get("name")); // Vishnu
+console.log(map.get(1)); // One
+```
+
+- **Use Case**: Associating data with unique keys, especially when keys are not strings.
+
+#### 🔹 WeakSet
+
+A `WeakSet` is similar to a `Set`, but it only stores **objects** and holds **weak references** to them. This means the objects can be garbage-collected if there are no other references to them.
+
+```js
+let obj1 = { name: "Alice" };
+let obj2 = { name: "Bob" };
+
+const weakSet = new WeakSet();
+weakSet.add(obj1);
+weakSet.add(obj2);
+
+console.log(weakSet.has(obj1)); // true
+
+obj1 = null; // The object is eligible for garbage collection
+```
+
+- **Key Features**:
+  - Only stores **objects** (no primitives).
+  - Objects in a `WeakSet` are **weakly referenced**, meaning they don’t prevent garbage collection.
+  - Does not have methods like `size`, `keys()`, or `values()` because it is not iterable.
+
+- **Use Case**: Managing temporary object references without preventing garbage collection.
+
+#### 🔹 WeakMap
+
+A `WeakMap` is similar to a `Map`, but it only allows **objects** as keys and holds **weak references** to those keys.
+
+```js
+let key1 = { id: 1 };
+let key2 = { id: 2 };
+
+const weakMap = new WeakMap();
+weakMap.set(key1, "Alice");
+weakMap.set(key2, "Bob");
+
+console.log(weakMap.get(key1)); // Alice
+
+key1 = null; // The key-value pair is removed from the WeakMap
+```
+
+- **Key Features**:
+  - Keys must be **objects** (no primitives).
+  - Keys are **weakly referenced**, meaning they don’t prevent garbage collection.
+  - Does not have methods like `size`, `keys()`, or `values()` because it is not iterable.
+
+- **Use Case**: Storing metadata or private data associated with objects without preventing garbage collection.
+
+---
+
+#### 🧠 Summary
+
+| Data Structure   | Key Type       | Value Type       | Unique Keys | Iterable | Garbage Collection |
+|------------------|----------------|------------------|-------------|----------|---------------------|
+| `Set`            | Any            | None             | ✅ Yes      | ✅ Yes   | ❌ No               |
+| `Map`            | Any            | Any              | ✅ Yes      | ✅ Yes   | ❌ No               |
+| `WeakSet`        | Object only    | None             | ✅ Yes      | ❌ No    | ✅ Yes              |
+| `WeakMap`        | Object only    | Any              | ✅ Yes      | ❌ No    | ✅ Yes              |
+
+[Back to Top](#)
+
+---
+
+### **Basic DOM Manipulation**
+
+The Document Object Model (DOM) allows you to interact with HTML elements using JavaScript. Let’s explore some common operations. 🛠️📜
+
+#### 🔹 Selecting Elements
+
+```js
+const element = document.querySelector("#myElement");
+```
+
+#### 🔹 Modifying Content
+
+```js
+element.textContent = "Hello, World!";
+```
+
+#### 🔹 Adding Event Listeners
+
+```js
+element.addEventListener("click", () => {
+  console.log("Element clicked!");
+});
+```
+
+[Back to Top](#)
+
+---
+
+### **Event Handling**
+
+Event handling allows you to respond to user interactions like clicks, keypresses, and more. Let’s explore the basics. 🛠️🖱️
+
+#### 🔹 Adding Event Listeners
+
+```js
+button.addEventListener("click", () => {
+  console.log("Button clicked!");
+});
+```
+
+#### 🔹 Event Delegation
+
+Use event delegation to handle events efficiently.
+
+```js
+document.body.addEventListener("click", (e) => {
+  if (e.target.matches(".btn")) {
+    console.log("Button clicked!");
+  }
+});
+```
 
 [Back to Top](#)
 
