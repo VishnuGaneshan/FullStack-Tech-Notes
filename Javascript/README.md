@@ -43,7 +43,7 @@ These are fundamentals every JavaScript developer must know:
 
 ---
 
-## 🚀 **Intermediate Topics**
+## 🚀 [**Intermediate Topics**](./Intermediate.md)
 
 These are essential to writing powerful, clean, and modular code:
 
@@ -74,7 +74,7 @@ These are essential to writing powerful, clean, and modular code:
 
 ---
 
-## 🧠 **Advanced Topics**
+## 🧠 [**Advanced Topics**](./Advanced.md)
 
 These give deeper understanding of how JavaScript works and are often asked in interviews:
 
