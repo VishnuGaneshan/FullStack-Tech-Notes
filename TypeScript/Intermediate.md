@@ -1,4 +1,4 @@
-[Back to Javascript Home Page](./README.md#)
+[Back to Typescript Home Page](./README.md#)
 
 ## 🚀 **Intermediate Topics** 📦⚙️📚
 
