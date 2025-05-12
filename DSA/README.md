@@ -6,22 +6,22 @@ This guide takes you from the basics to advanced problem-solving techniques, wit
 
 ---
 
-## 🟢 Basic Topics 🧠🔍📘
+## [**🟢 Basic Topics 🧠🔍📘**](./Basic.md#)
 
 Start here if you're new or want to strengthen your foundation:
 
-- What is DSA?
-- Time & Space Complexity (Big O Notation)
-- Recursion
-- Arrays
-- Strings
-- Linked Lists (Singly & Doubly)
-- Stack
-- Queue (Normal, Circular, Deque)
-- Hashing (Hash Tables, Hash Maps)
-- Searching Algorithms
-  - Linear Search
-  - Binary Search
+- [What is DSA?](./Basic.md#what-is-dsa)
+- [Time & Space Complexity (Big O Notation)](./Basic.md#time--space-complexity-big-o-notation)
+- [Recursion](./Basic.md#recursion)
+- [Arrays](./Basic.md#arrays)
+- [Strings](./Basic.md#strings)
+- [Linked Lists (Singly & Doubly)](./Basic.md#linked-lists-singly--doubly)
+- [Stack](./Basic.md#stack)
+- [Queue (Normal, Circular, Deque)](./Basic.md#queue-normal-circular-deque)
+- [Hashing (Hash Tables, Hash Maps)](./Basic.md#hashing-hash-tables-hash-maps)
+- [Searching Algorithms](./Basic.md#searching-algorithms)
+  - [Linear Search](./Basic.md#linear-search)
+  - [Binary Search](./Basic.md#binary-search)
 
 ---
 
