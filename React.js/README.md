@@ -12,20 +12,20 @@ This guide takes you step-by-step from the basics to advanced patterns and archi
 
 These topics are perfect for beginners getting started with React:
 
-- What is React? Why use React?
-- Setting Up a React App:
-  - Using Create React App (CRA)
-  - Using Vite
-- Folder Structure Basics
-- JSX Syntax
-- Functional Components vs Class Components
-- Rendering Elements
-- Props (Properties)
-- State in Functional Components (`useState`)
-- Event Handling
-- Conditional Rendering
-- Lists and Keys
-- Basic Styling (Inline CSS, CSS Modules)
+- ⚛️ [What is React? Why use React?](./Basic.md#what-is-react-why-use-react)
+- 🛠️ Setting Up a React App:
+    - 🚀 [Using Create React App (CRA)](./Basic.md#setting-up-a-react-app)
+    - ⚡ [Using Vite](./Basic.md#setting-up-a-react-app)
+- 📁 [Folder Structure Basics](./Basic.md#folder-structure-basics)
+- ✨ [JSX Syntax](./Basic.md#jsx-syntax)
+- 🧩 [Functional Components vs Class Components](./Basic.md#functional-components-vs-class-components)
+- 🖼️ [Rendering Elements](./Basic.md#rendering-elements)
+- 📦 [Props (Properties)](./Basic.md#props-properties)
+- 🔄 [State in Functional Components (`useState`)](./Basic.md#state-in-functional-components-usestate)
+- 🎯 [Event Handling](./Basic.md#event-handling)
+- 🔀 [Conditional Rendering](./Basic.md#conditional-rendering)
+- 📝 [Lists and Keys](./Basic.md#lists-and-keys)
+- 🎨 [Basic Styling (Inline CSS, CSS Modules)](./Basic.md#basic-styling-inline-css-css-modules)
 
 ---
 
