@@ -33,21 +33,21 @@ These topics are perfect for beginners getting started with React:
 
 Here you'll get into state management, component composition, and more real-world usage:
 
-- React Developer Tools
-- useEffect Hook (side effects)
-- useRef Hook
-- useMemo and useCallback
-- Controlled vs Uncontrolled Components
-- Form Handling in React
-- Lifting State Up
-- Component Composition
-- React Router Basics
-- Custom Hooks
-- Error Boundaries
-- Basic Context API
-- Working with APIs (Fetch/Axios)
-- Basic Animations (Framer Motion, React Transition Group)
-- Deployment (Netlify, Vercel, etc.)
+- 🛠️ [React Developer Tools](./Intermediate.md#react-developer-tools)
+- 🔄 [useEffect Hook (side effects)](./Intermediate.md#useeffect-hook-side-effects)
+- 🧲 [useRef Hook](./Intermediate.md#useref-hook)
+- 🧮 [useMemo and useCallback](./Intermediate.md#usememo-and-usecallback)
+- 🎛️ [Controlled vs Uncontrolled Components](./Intermediate.md#controlled-vs-uncontrolled-components)
+- 📝 [Form Handling in React](./Intermediate.md#form-handling-in-react)
+- ⬆️ [Lifting State Up](./Intermediate.md#lifting-state-up)
+- 🧱 [Component Composition](./Intermediate.md#component-composition)
+- 🛣️ [React Router Basics](./Intermediate.md#react-router-basics)
+- 🛠️ [Custom Hooks](./Intermediate.md#custom-hooks)
+- 🛡️ [Error Boundaries](./Intermediate.md#error-boundaries)
+- 🌐 [Basic Context API](./Intermediate.md#basic-context-api)
+- 🔗 [Working with APIs (Fetch/Axios)](./Intermediate.md#working-with-apis-fetchaxios)
+- 🎬 [Basic Animations (Framer-motion-react-transition-group)](./Intermediate.md#basic-animations-framer-motion-react-transition-group)
+- 🚀 [Deployment (Netlify, Vercel, etc.)](./Intermediate.md#deployment-netlify-vercel-etc)
 
 ---
 
